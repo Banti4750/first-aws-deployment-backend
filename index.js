@@ -4,7 +4,7 @@ const app = express();
 
 
 app.get('/', (req, res) => {
-    res.status(200).send("HI THERE , i am using express js")
+    res.status(200).send("HI THERE , i am using ci cd ")
 })
 
 app.listen(3000, () => {
