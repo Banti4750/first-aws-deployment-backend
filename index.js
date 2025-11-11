@@ -4,7 +4,7 @@ const app = express();
 
 
 app.get('/', (req, res) => {
-    res.status(200).send("HI AWS")
+    res.status(200).send("HI THERE , i am using express js")
 })
 
 app.listen(3000, () => {
